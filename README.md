@@ -13,5 +13,6 @@ Project to learn how to use gradle, especially when importing packages from anot
 4. Set up your gradle project: gradle init
 - This will create the folder structure for a gradle project, the build.gradle file, the gradle wrapper and other related files
 
-## Start working
-1. Create folder structure required for gradle
+## Building
+1. If tokens or secrets are required add them to the gradle.properties file as environment variables and then export them: 
+- export MY_SECRET_TOKEN=your-token-here
