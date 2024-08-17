@@ -1,0 +1,17 @@
+{
+    "Java Class Template": {
+    "prefix": "javaclass",
+    "body": [
+        "package ${1:your.package};",
+        "",
+        "public class ${2:ClassName} {",
+        "",
+        "    public ${2:ClassName}() {",
+        "        // Constructor",
+        "    }",
+        "",
+        "}"
+    ],
+    "description": "Template for a new Java class"
+	}
+}
